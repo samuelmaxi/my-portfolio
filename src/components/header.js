@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import '../styles/header.scss'
 
 export function Header(){
   return(
