@@ -1,5 +1,5 @@
 import Image from "next/image";
-import '../styles/header.scss'
+import './header.scss';
 
 export function Header(){
   return(
@@ -13,10 +13,10 @@ export function Header(){
           />
         </div>
         <ul className="info-page">
-          <li><a href="">About Me</a></li>
-          <li><a href="">Skils</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact Me</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Skils</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
         </ul>
       </section>
 

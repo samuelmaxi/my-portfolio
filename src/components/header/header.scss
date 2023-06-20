@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.info-page{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 10px;
+}
+
+li{
+  padding: 10px;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}

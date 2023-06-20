@@ -1,14 +1,10 @@
 'use client'
-import { Button, Card, CardActions, CardContent, CardMedia, FormControlLabel, RadioGroup, TextField, Typography } from '@mui/material';
-import { SocialIcon } from 'react-social-icons';
-import SendIcon from '@mui/icons-material/Send';
-import { CopyrightOutlined } from '@mui/icons-material';
-import { Header } from '@/components/header';
-import { AboutMe } from '@/components/aboutme';
-import { Skills } from '@/components/skills';
-import { Projects } from '@/components/projects';
-import { ContactMe } from '@/components/contactme';
-import { Footer } from '@/components/footer';
+import { Header } from '@/components/header/header';
+import { AboutMe } from '@/components/aboutme/aboutme';
+import { Skills } from '@/components/skills/skills';
+import { Projects } from '@/components/projects/projects';
+import { ContactMe } from '@/components/contactme/contactme';
+import { Footer } from '@/components/footer/footer';
 
 
 export default function Home() {
