@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export function ContactMe() {
   return (
-    <section className="contact-me">
+    <section className="contact-me" id="contact-me">
       <h1>Fale comigo!</h1>
       <div className="form">
         <TextField
