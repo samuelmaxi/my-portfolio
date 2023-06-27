@@ -22,7 +22,11 @@ export function AboutMe() {
           height={250}
           // style={{ borderRadius: '10px'}}
         />
+        <button id='btn-cv'>
+          <a href="../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf" download={"../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf"}>Download</a>
+        </button>
       </div>
+
     </section>
   );
 }
