@@ -2,9 +2,10 @@
 import { React } from 'react'
 import '@/assets/styles/aboutme.scss'
 import Image from 'next/image';
+import { Button } from 'react-bootstrap';
 export function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id='about-me'>
       <div className="text">
         <h1 className='title'>Olá, eu sou Samuel Máximo</h1>
         <p className='content'>
@@ -20,11 +21,10 @@ export function AboutMe() {
           alt="Perfil icon"
           width={250}
           height={250}
-          // style={{ borderRadius: '10px'}}
         />
-        <button id='btn-cv'>
-          <a href="../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf" download={"../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf"}>Download</a>
-        </button>
+        <div className='btn-cv'>
+          <Button variant="outline-info" href='../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf' download={"../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf"}>Download CV</Button>{' '}
+        </div>
       </div>
 
     </section>

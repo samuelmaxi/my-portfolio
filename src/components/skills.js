@@ -2,7 +2,7 @@ import { FormControlLabel, Radio, RadioGroup } from "@mui/material";
 
 export function Skills(){
   return(
-    <section className="skills">
+    <section className="skills" id="skills">
         <h2 className='title-skills'>Front-end</h2>
         <section className="collection-skills">
           <div className="img-1"></div>

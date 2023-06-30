@@ -2,7 +2,7 @@ import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 export function Projects(){
   return(
-    <section className="projects">
+    <section className="projects" id="projects">
         {/* Search Search Component */}
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
