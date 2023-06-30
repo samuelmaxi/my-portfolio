@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <Header />
       <AboutMe />
-      <Skills />
+      <Skills title = 'Front-end'/>
       <Projects />
       <ContactMe />
       <Footer />

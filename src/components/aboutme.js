@@ -8,12 +8,12 @@ export function AboutMe() {
     <section className="about-me" id='about-me'>
       <div className="text">
         <h1 className='title'>Olá, eu sou Samuel Máximo</h1>
-        <p className='content'>
-          <p>🧑‍💻Sou um estudante de programação e apaixonado por tecnologia.</p>
-          <p>🎓Cursando Sistemas de Informação na UNINASSAU.</p>
-          <p>💡Interesse em linguagens Back-end.</p>
-          <p>🚀Busco um oportunidade em desenvolvimento na area de back-end.</p>
-        </p>
+        <span className='content'>
+          <span>🧑‍💻Sou um estudante de programação e apaixonado por tecnologia.</span> <br />
+          <span>🎓Cursando Sistemas de Informação na UNINASSAU.</span> <br />
+          <span>💡Interesse em linguagens Back-end.</span> <br />
+          <span>🚀Busco um oportunidade em desenvolvimento na area de back-end.</span> <br />
+        </span>
       </div>
       <div className="image">
         <Image

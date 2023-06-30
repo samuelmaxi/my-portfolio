@@ -3,8 +3,8 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  padding-top: 45px;
-  // margin-top: 20px;
+  padding-top: 120px;
+  padding-bottom: 110px;
   margin-bottom: 25px;
   border-bottom: 1px solid var(--detail);
 
@@ -43,7 +43,7 @@
     font-weight: bold;
   }
 
-  .content {
+  .content span{
     margin-top: 20px;
     text-align: justify;
     font-size: 18px;
