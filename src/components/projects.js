@@ -1,5 +1,5 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
-
+import '@/assets/styles/projects.scss'
 export function Projects(){
   return(
     <section className="projects" id="projects">

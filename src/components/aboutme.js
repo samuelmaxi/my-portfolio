@@ -10,8 +10,11 @@ export function AboutMe() {
         <h1 className='title'>Olá, eu sou Samuel Máximo</h1>
         <span className='content'>
           <span>🧑‍💻Sou um estudante de programação e apaixonado por tecnologia.</span> <br />
+          <br />
           <span>🎓Cursando Sistemas de Informação na UNINASSAU.</span> <br />
+          <br />
           <span>💡Interesse em linguagens Back-end.</span> <br />
+          <br />
           <span>🚀Busco um oportunidade em desenvolvimento na area de back-end.</span> <br />
         </span>
       </div>
