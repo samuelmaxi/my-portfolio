@@ -1,7 +1,5 @@
 # my-portfolio
 
-Esse é o projeto de portfólio 
-
 ## **Índice**
 
 - **[Visão Geral](#visão-geral)**
