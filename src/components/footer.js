@@ -1,4 +1,5 @@
 import { CopyrightOutlined } from "@mui/icons-material";
+import '@/assets/styles/footer.scss'
 
 export function Footer() {
   return (

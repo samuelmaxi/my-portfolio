@@ -1,7 +1,9 @@
-.footer{
+.footer {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row-reverse;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: center;
   margin: 10px;
+  padding: 10px;
 }
