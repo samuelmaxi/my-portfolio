@@ -3,6 +3,9 @@ import { React } from 'react'
 import '@/assets/styles/aboutme.scss'
 import Image from 'next/image';
 import { Button } from 'react-bootstrap';
+
+
+
 export function AboutMe() {
   return (
     <section className="about-me" id='about-me'>

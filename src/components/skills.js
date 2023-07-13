@@ -2,7 +2,6 @@ import { CardGroup, Carousel, CarouselItem, Col, Row } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import '@/assets/styles/skills.scss'
 import Form from 'react-bootstrap/Form';
-import Reacticon from '@/assets/img/React-icon.png'
 
 
 function LiguageCards(props) {
@@ -26,43 +25,6 @@ function LiguageCards(props) {
 
   );
 };
-
-
-function CheckInline() {
-  return (
-    <Form>
-      {['radio'].map((type) => (
-        <div key={`inline-${type}`} className="mb-3">
-          <Form.Check
-            inline
-            name="group1"
-            type={type}
-            id={`inline-${type}-2`}
-          />
-          <Form.Check
-            inline
-            name="group1"
-            type={type}
-            id={`inline-${type}-2`}
-          />
-          <Form.Check
-            inline
-            name="group1"
-            type={type}
-            id={`inline-${type}-2`}
-          />
-          <Form.Check
-            inline
-            name="group1"
-            type={type}
-            id={`inline-${type}-2`}
-          />
-
-        </div>
-      ))}
-    </Form>
-  );
-}
 
 function CardProjectFrontEnd() {
   return (
@@ -152,7 +114,7 @@ export function Skills(props) {
   return (
     <section className="skills" id="skills">
       <h1>Habilidades e Competências</h1>
-      <Carousel pause='hover' >
+      <Carousel >
         <Carousel.Item >
           <h2>Front-End</h2>
           <section className="first-line">
