@@ -28,7 +28,7 @@ export function ContactMe() {
 
     emailjs.send("service_t4ot5zb", "template_v05lr4n", templateParms, "bd5rI-gnY-mro5VWu")
     .then((response)=> {
-      console.log("EMAIL ENVIADO", response.status, resolve.text)
+      alert("EMAIL ENVIADO")
       setName('')
       setEmail('')
       setMensage('')
