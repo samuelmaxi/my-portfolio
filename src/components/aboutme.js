@@ -29,7 +29,7 @@ export function AboutMe() {
           height={250}
         />
         <div className='btn-cv'>
-          <Button variant="outline-info" href='../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf' download={"../template/Currículo - Samuel Máximo de Araújo Neto_220506_154058.pdf"}>Download CV</Button>{' '}
+          <Button variant="outline-info" href='https://drive.google.com/file/d/1j6DKKxpP8UGsRrcbdOPdlcrnHTExn8Ys/view?usp=drive_link' target='blanck'>Download CV</Button>
         </div>
       </div>
 
